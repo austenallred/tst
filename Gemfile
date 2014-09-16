@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '2.1.2p95'
+ruby '2.1.2'
 
 gem 'rails', '4.1.6'
 gem 'sass-rails', '~> 4.0.3'
@@ -8,7 +8,8 @@ gem 'coffee-rails', '~> 4.0.0'
 gem 'bootstrap-sass'
 gem 'jquery-rails'
 gem 'turbolinks'
-gem 'jbuilder', '~> 2.0'         
+gem 'jbuilder', '~> 2.0'
+gem 'devise'         
 
 group :development, :test do
   gem 'sqlite3'
